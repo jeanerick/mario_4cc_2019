@@ -1,0 +1,18 @@
+.title{
+    font-family: 'Satisfy', cursive !important;
+}
+
+.title-section{
+    background-image: url('../img/title_img.jpg');
+    min-height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#book-table{
+    background-image: url('../img/michael-browning-188999-unsplash.jpg');
+    min-height: 50em;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
