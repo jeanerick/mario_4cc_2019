@@ -3,7 +3,7 @@
 }
 
 .title-section{
-    background-image: url('../img/title_img.jpg');
+    background-image: url('https://images.pexels.com/photos/775033/pexels-photo-775033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     min-height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,4 +15,22 @@
     min-height: 50em;
     background-repeat: no-repeat;
     background-size: cover;   
+}
+
+
+#dices-coll{
+    background-image: url('https://images.pexels.com/photos/349610/pexels-photo-349610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    min-height: 50em;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+
+
+.margin-left{
+    margin-left: 12vw;
+}
+
+.center-text{
+    text-align: center;
 }
