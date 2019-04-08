@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
 
 <head>
     <meta charset="utf-8" />
@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="scripts/main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
 
 
-    <nav class="navbar is-success" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-success is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="https://bulma.io">
                 <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
@@ -32,46 +34,52 @@
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
                 <a class="navbar-item">
-                    Home
+                    HOME
                 </a>
 
                 <a class="navbar-item">
-                    Documentation
+                    ABOUT
                 </a>
 
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
-                        More
-                    </a>
+                <a class="navbar-item">
+                    FOOD MENU
+                </a>
 
-                    <div class="navbar-dropdown">
-                        <a class="navbar-item">
-                            About
-                        </a>
-                        <a class="navbar-item">
-                            Jobs
-                        </a>
-                        <a class="navbar-item">
-                            Contact
-                        </a>
-                        <hr class="navbar-divider">
-                        <a class="navbar-item">
-                            Report an issue
-                        </a>
-                    </div>
-                </div>
+                <a class="navbar-item">
+                    BOOKED
+                </a>
+
+                <a class="navbar-item">
+                    BLOG
+                </a>
+
+                <a class="navbar-item">
+                    CONTACT
+                </a>            
+
+                <a class="navbar-item">
+                        <i class="fas fa-phone-volume"></i> +55 000000-000
+                </a>
+
             </div>
 
             <div class="navbar-end">
                 <div class="navbar-item">
-                    <div class="buttons">
-                        <a class="button is-primary">
-                            <strong>Sign up</strong>
-                        </a>
-                        <a class="button is-light">
-                            Log in
-                        </a>
-                    </div>
+                    <span class="icon">
+                        <i class="fab fa-facebook-square"></i>
+                    </span>
+                    <span class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </span>
+                    <span class="icon">
+                        <i class="fab fa-google-plus-g"></i>
+                    </span>
+                    <span class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </span>
+                    <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </span>
                 </div>
             </div>
         </div>
@@ -154,8 +162,8 @@
                     </div>
                     <div class="card-content">
                         <div class="media-content center-text">
-                            <p class="title is-4">John Smith</p>
-                            <p class="subtitle is-6">@johnsmith</p>
+                            <p class="title is-4">My Food</p>
+                            <h1 class="has-text-success is-4-bold">$33</h1>
                         </div>
                     </div>
                 </div>
@@ -171,8 +179,8 @@
                     </div>
                     <div class="card-content">
                         <div class="media-content center-text">
-                            <p class="title is-4">John Smith</p>
-                            <p class="subtitle is-6">@johnsmith</p>
+                            <p class="title is-4">My Food</p>
+                            <h1 class="has-text-success is-4-bold">$33</h1>
                         </div>
                     </div>
                 </div>
@@ -188,8 +196,8 @@
                     </div>
                     <div class="card-content">
                         <div class="media-content center-text">
-                            <p class="title is-4">John Smith</p>
-                            <p class="subtitle is-6">@johnsmith</p>
+                            <p class="title is-4">My Food</p>
+                            <h1 class="has-text-success is-4-bold">$33</h1>
                         </div>
                     </div>
                 </div>
@@ -228,6 +236,7 @@
                                 <p class="title is-4">John Smith</p>
                                 <p class="subtitle is-6">@johnsmith</p>
                             </div>
+                            <p class="item-price has-text-success">$19</p>
                         </div>
                     </li>
                     <li>
@@ -243,6 +252,7 @@
                                 <p class="title is-4">John Smith</p>
                                 <p class="subtitle is-6">@johnsmith</p>
                             </div>
+                            <p class="item-price has-text-success">$19</p>
                         </div>
                     </li>
                     <li>
@@ -258,6 +268,7 @@
                                 <p class="title is-4">John Smith</p>
                                 <p class="subtitle is-6">@johnsmith</p>
                             </div>
+                            <p class="item-price has-text-success">$19</p>
                         </div>
                     </li>
                 </ul>
@@ -277,6 +288,7 @@
                                 <p class="title is-4">John Smith</p>
                                 <p class="subtitle is-6">@johnsmith</p>
                             </div>
+                            <p class="item-price has-text-success">$19</p>
                         </div>
                     </li>
                     <li>
@@ -292,6 +304,7 @@
                                 <p class="title is-4">John Smith</p>
                                 <p class="subtitle is-6">@johnsmith</p>
                             </div>
+                            <p class="item-price has-text-success">$19</p>
                         </div>
                     </li>
                     <li>
@@ -307,6 +320,7 @@
                                 <p class="title is-4">John Smith</p>
                                 <p class="subtitle is-6">@johnsmith</p>
                             </div>
+                            <p class="item-price has-text-success">$19</p>
                         </div>
                     </li>
                 </ul>
@@ -368,22 +382,30 @@
                 </figure>
             </div>
         </div>
-
-
-
-
-
-
     </section>
 
     <section class="section">
-        <div class="container">
-            <h1 class="title">Section</h1>
+        <div class="column is-full center-text">
+            <h1 class="title">Client Feedback</h1>
             <h2 class="subtitle">
-                A simple container to divide your page into <strong>sections</strong>, like the one you're currently
-                reading
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, alias sed! Accusantium aut magnam ex
+                iure ab, quae sapiente perferendis! Voluptate, nemo similique error quos quod modi corrupti et
+                beatae?
             </h2>
         </div>
+        <div class="columns">
+            <div class="column is-half">
+
+            </div>
+            <div class="column feedback-image img-1">
+
+            </div>
+            <div class="column feedback-image img-2">
+
+            </div>
+        </div>
+
+
     </section>
 
     <section id="book-table" class="section">
@@ -426,8 +448,7 @@
         <div class="columns">
             <div class="column">
                 <figure class="image is-5by4">
-                    <img
-                        src="https://i.imgur.com/yT7Kizi.png">
+                    <img src="https://i.imgur.com/yT7Kizi.png">
                 </figure>
             </div>
             <div class="column center-text">
@@ -462,16 +483,96 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <div class="content has-text-centered">
-            <p>
-                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-            </p>
+    <section class="section" id="news-col">
+        <div class="container" style="padding-top: 5%;">
+            <div class="column is-full center-text">
+                <h1 class="title">Restaurant News From Blog</h1>
+                <h2 class="subtitle">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, alias sed! Accusantium aut magnam ex
+                    iure ab, quae sapiente perferendis! Voluptate, nemo similique error quos quod modi corrupti et
+                    beatae?
+                </h2>
+            </div>
         </div>
-        <div class="column center-text">
-            Copyright © 2019 | Powered By Jean Assis
+
+        <div style="padding: 2em;" class="columns">
+            <div class="column">
+                <figure class="image is-5by4 max-20">
+                    <img
+                        src="https://images.unsplash.com/photo-1551854590-47ce783a70b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+                    <figcaption class="figcaption-green has-text-white">
+                        <span class="meta">Admin <span class="icon">
+                                <i class="fas fa-circle"></i>
+                            </span> Sep, 2017</span>
+                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="image is-5by4 max-20">
+                    <img
+                        src="https://images.unsplash.com/photo-1522881193457-37ae97c905bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+                    <figcaption class="figcaption-green has-text-white">
+                        <span class="meta">Admin <span class="icon">
+                                <i class="fas fa-circle"></i>
+                            </span> Sep, 2017</span>
+                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="image is-5by4 max-20">
+                    <img
+                        src="https://images.unsplash.com/photo-1553798402-5a1aacc53953?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+                    <figcaption class="figcaption-green has-text-white">
+                        <span class="meta">Admin <span class="icon">
+                                <i class="fas fa-circle"></i>
+                            </span> Sep, 2017</span>
+                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+
+        <div class="columns">
+            <div class="column center-text footer-text">
+                <h1 class="title">Contact Us</h1>
+                <p>Blá Blá</p>
+                <p>Blá Blá</p>
+            </div>
+            <div class="column center-text">
+                <h1 class="title">Oppening Hours</h1>
+                <p>Blá Blá</p>
+                <p>Blá Blá</p>
+            </div>
+            <div class="column center-text">
+                <h1 class="title">Location</h1>
+                <p>Blá Blá</p>
+                <p>Blá Blá</p>
+            </div>
+            <div class="column center-text">
+                <h1 class="title">Subcribe Newsletter</h1>
+                <form style="display: flex;">
+                    <div class="control">
+                        <input class="input" type="text" placeholder="E-mail*">
+                    </div>
+                    <a class="button is-success media-left">SUBMIT</a>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="column center-text credits-col">
+            <p style="padding-top: 2em;">Copyright © 2019 | Powered By Jean Assis</p>
         </div>
     </footer>
 </body>

@@ -33,7 +33,10 @@
    
 }
 
-
+#news-col{
+    min-height: 50em;
+    background: #c5c5c570;  
+}
 
 .margin-left{
     margin-left: 12vw;
@@ -45,4 +48,74 @@
 
 .footer{
     padding: none;
+}
+
+.figcaption-green{
+    background-color: rgba(35, 209, 96, 0.55);    
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    min-height: 6em;
+    padding: 10px 0px 0px 15px;
+}
+
+.max-20{
+    max-height: 20em;
+    padding-top: 0 !important;
+    height: 20em;
+}
+
+.fas.fa-circle{
+    font-size: 5px;
+}
+.meta{
+
+}
+
+.figcaption-green h1{
+    font-size: 1.4em;
+}
+
+.item-price{
+    font-weight: 800;
+    height: 40px;
+    width: 40px;
+    background: #c5c5c59c;
+    border-radius: 50%;
+    line-height: 2.4em;
+    text-indent: 7px;
+}
+
+.is-4-bold{
+    font-weight: 800;
+}
+.footer{
+    padding: 0;
+}
+.credits-col{
+    background: #4a4a4a;
+    color: #fff;
+    height: 5em;
+}
+.footer-text p{
+color: #4a4a4a
+}
+
+.feedback-image{
+    min-height: 20px
+   
+} 
+
+.img-1{
+    background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/10/05/15/curry-istocl-joegough.jpg?w968h681');
+    min-height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.img-2{
+    background-image: url('https://cdn.citynomads.com/wp-content/uploads/2017/06/08154455/straits-kitchen-cover3.png');
+    min-height: 30em;
+    background-repeat: no-repeat;
+    background-size: cover;   
 }
